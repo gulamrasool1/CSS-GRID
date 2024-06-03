@@ -1,0 +1,44 @@
+.boxContainer {
+    width: 800px;
+    border: 2px solid black;
+    text-align: center;
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px 150px 200px 200px 200px;
+}
+
+.div1 {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    background-color: darkred;
+}
+
+.div2 {
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    background-color: darkslateblue;
+}
+
+.div3 {
+    grid-row: 3/5;
+    grid-column: 1/2;
+    background-color: darkcyan;
+}
+
+.div4 {
+    grid-row: 3/4;
+    grid-column: 2/-1;
+    background-color: dodgerblue;
+}
+
+.div5 {
+    grid-row: 4/5;
+    grid-column: 2/-1;
+    background-color: darksalmon;
+}
+
+.div6 {
+    grid-row: 5/5;
+    grid-column: 1/-1;
+    background-color: darkgreen
+}
